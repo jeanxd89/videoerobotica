@@ -5,4 +5,150 @@
   font-family: "Chakra Petch", sans-serif; /* bota a fonte como Chakra Petch ou uma fonte genérica sans-serif */
   margin-bottom: 400px; /* adiciona uma margem de 100px na parte inferior da página */
 }
+ chamada {
+  background: rgb(184, 156, 213); /* Define a cor de fundo usando valores RGB */
+  padding-bottom: 80px;          /* Espaço interno (padding) de 80px na parte inferior */
+  padding-top: 80px;             /* Espaço interno (padding) de 80px na parte superior */
+  display: flex;                 /* Define um container flexível para organizar os elementos filhos em linha */
+  justify-content: center;       /* Centraliza os elementos filhos horizontalmente dentro do container flex */
+}
+
+chamada-texto {
+  margin-right: 5%;              /* Adiciona uma margem à direita de 5% da largura do elemento pai */
+}
+
+h1 {
+  font-size: 40px;               /* Define o tamanho da fonte do título como 40 pixels */
+}
+
+p {
+  font-size: 20px;               /* Define o tamanho da fonte do parágrafo como 20 pixels */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
