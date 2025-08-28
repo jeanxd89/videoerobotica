@@ -1,65 +1,57 @@
  body { 
-  color: white; /* define a cor do texto como branco */
-  background: black; /* define o fundo da página como preto */
-  margin: 200px; /* tira a margem padrão do corpo da página */
-  font-family: "Chakra Petch", sans-serif; /* bota a fonte como Chakra Petch ou uma fonte genérica sans-serif */
-  margin-bottom: 400px; /* adiciona uma margem de 100px na parte inferior da página */
+ body {
+  color: white; /* Cor do texto em branco */
+  background: black; /* Fundo preto */
+  margin: 200px; /* Margem geral de 200px */
+  font-family: "Chakra Petch", sans-serif; /* Fonte personalizada */
+  margin-bottom: 400px; /* Margem inferior maior (400px) */
 }
- .chamada {
-  background: rgb(184, 156, 213); /* Define a cor de fundo usando valores RGB */
-  padding-bottom: 80px;          /* Espaço interno (padding) de 80px na parte inferior */
-  padding-top: 80px;             /* Espaço interno (padding) de 80px na parte superior */
-  display: flex;                 /* Define um container flexível para organizar os elementos filhos em linha */
-  justify-content: center;       /* Centraliza os elementos filhos horizontalmente dentro do container flex */
+
+.chamada {
+  background: rgb(184, 156, 213); /* Fundo lilás da seção */
+  padding-bottom: 80px; /* Espaço interno inferior */
+  padding-top: 80px; /* Espaço interno superior */
+  display: flex; /* Layout flexível em linha */
+  justify-content: center; /* Centraliza os elementos filhos */
 }
 
 .chamada-texto {
-  margin-right: 5%;              /* Adiciona uma margem à direita de 5% da largura do elemento pai */
+  margin-right: 5%; /* Espaço à direita do texto */
 }
 
 h1 {
-  font-size: 40px;               /* Define o tamanho da fonte do título como 40 pixels */
+  font-size: 40px; /* Tamanho da fonte do título */
 }
 
 p {
-  font-size: 20px;               /* Define o tamanho da fonte do parágrafo como 20 pixels */
+  font-size: 20px; /* Tamanho da fonte dos parágrafos */
 }
 
 .categoria-videos {
-
-display:flex;
-overflow-x: auto;
-gap: 10px;
-
+  display: flex; /* Layout flexível em linha */
+  overflow-x: auto; /* Permite rolagem horizontal */
+  gap: 10px; /* Espaço entre os vídeos */
 }
 
 .categoria {
-padding-left: 20px;
-padding-right: 20px;
-margin-top: 50px;
-
+  padding-left: 20px; /* Espaço à esquerda */
+  padding-right: 20px; /* Espaço à direita */
+  margin-top: 50px; /* Espaço acima da seção */
 }
 
 .categoria-videos img {
-opacity: 0.5;
-height: 200px;
-
+  opacity: 0.5; /* Imagens com transparência inicial */
+  height: 200px; /* Altura das miniaturas */
 }
 
 .categoria-videos img:hover {
-
-opacity: 1.0;
-border: 3px solid green;
-
+  opacity: 1.0; /* Imagem totalmente visível ao passar o mouse */
+  border: 3px solid green; /* Borda verde ao passar o mouse */
 }
 
 .categoria h2 {
-
-color: rgb(42, 122, 228);
-
-
+  color: rgb(42, 122, 228); /* Cor azul do título da seção */
 }
-
 
 
 
