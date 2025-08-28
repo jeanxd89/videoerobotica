@@ -5,7 +5,7 @@
   font-family: "Chakra Petch", sans-serif; /* bota a fonte como Chakra Petch ou uma fonte genérica sans-serif */
   margin-bottom: 400px; /* adiciona uma margem de 100px na parte inferior da página */
 }
- chamada {
+ .chamada {
   background: rgb(184, 156, 213); /* Define a cor de fundo usando valores RGB */
   padding-bottom: 80px;          /* Espaço interno (padding) de 80px na parte inferior */
   padding-top: 80px;             /* Espaço interno (padding) de 80px na parte superior */
@@ -13,7 +13,7 @@
   justify-content: center;       /* Centraliza os elementos filhos horizontalmente dentro do container flex */
 }
 
-chamada-texto {
+.chamada-texto {
   margin-right: 5%;              /* Adiciona uma margem à direita de 5% da largura do elemento pai */
 }
 
@@ -25,12 +25,40 @@ p {
   font-size: 20px;               /* Define o tamanho da fonte do parágrafo como 20 pixels */
 }
 
+.categoria-videos {
+
+display:flex;
+overflow-x: auto;
+gap: 10px;
+
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+
+}
+
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+
+}
+
+.categoria-videos img:hover {
+
+opacity: 1.0;
+border: 3px solid green;
+
+}
+
+.categoria h2 {
+
+color: rgb(42, 122, 228);
 
 
-
-
-
-
+}
 
 
 
